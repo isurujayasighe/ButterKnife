@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         title.setText("Hello ButterKnife");
     }
 
+    String hello;
     @OnClick(R.id.button)
     public void submit() {
         Toast.makeText(MainActivity.this,"Hello from Butterknife OnClick annotation", Toast.LENGTH_SHORT).show();
