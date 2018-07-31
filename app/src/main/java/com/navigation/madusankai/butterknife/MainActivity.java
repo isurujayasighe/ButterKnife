@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        title.setText("Hello ButterKnife");
+//        title.setText("Hello ButterKnife");
     }
 
-    String hello;
+    String hello= "kfk";
     @OnClick(R.id.button)
     public void submit() {
         Toast.makeText(MainActivity.this,"Hello from Butterknife OnClick annotation", Toast.LENGTH_SHORT).show();
